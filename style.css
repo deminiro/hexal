@@ -7,7 +7,7 @@ body{
     overflow-x: hidden;
 }
 .header{
-    height: 63px;
+    height: 75px;
     background-color: #323232;
     padding: 5px 5px 5px 14px;
     text-align: center;
@@ -29,16 +29,16 @@ h1{
     color: #2eb398;
 }
 .hexagon-triangle{
-    width: 92px;
-    height: 209px;
-    margin: 5px;
+    width: 126px;
+    height: 208px;
+    margin: 8px 1px 8px 8px;
     transform: rotate(120deg);
     overflow: hidden;
     visibility: hidden;
     display: inline-block;
     position: relative;
     text-align: center;
-    bottom: 70px;
+    bottom: 72px;
 }
 .hex-layer-triangle{   
     visibility: hidden;
@@ -77,15 +77,15 @@ ul{
 }
 .line-u li:last-child{
     float: right;
-    padding-left: 140px;
+    padding-left: 196px;
 }
 .line-uh{
-    width: 550px;
+    width: 535px;
     text-align: center;
     color: #e4e9eb;
     background-color: #e4e9eb;
     border: 0; 
-    height: 1px;
+    height: 2px;
 }
 .portfolio{
     position: relative;
@@ -100,7 +100,7 @@ ul{
 .hexagon-container{
     height: 270px;
     margin-top: 0px;
-    margin-left: 43px;
+    margin-left: 24px;
     display: flex;
 }
 .line-hex-1{
@@ -129,29 +129,29 @@ ul{
     width: 133px;
     height: 1px;
     border: 0;
-    margin: 39px 0 0 0;
+    margin: 44px 0 0 0;
     color: #e4e9eb;
     background-color: #e4e9eb;
     transform: rotate(90deg);
-    left: 52px;
+    left: 32px;
     position: relative;
 }
 .line-hex-4{
     width: 133px;
     height: 1px;
     border: 0;
-    margin: 39px 0 0 0;
+    margin: 43px 0 0 0;
     color: #e4e9eb;
     background-color: #e4e9eb;
     transform: rotate(90deg);
-    right: 55px;
+    right: 70px;
     position: relative;
 }
 .hexagon {
     width: 230px;
     height: 269px;
-    margin: 9px;
-    left: 2px;
+    margin: 14px;
+    left: 0px;
     transform: rotate(120deg);
     overflow: hidden;
     visibility: hidden;
@@ -166,7 +166,7 @@ ul{
     overflow: hidden;
 }
 .row{
-    margin-top: 130px;
+    margin-top: 89px;
     position: relative;
 }
 main{
@@ -218,7 +218,6 @@ main{
     background-position: 50%;
 }
 .hexagon-container-1{
-    
     height: 270px;
     margin-top: 0px;
     margin-left: 55px;
@@ -228,8 +227,9 @@ main{
 .hexagon-1 {
     width: 230px;
     height: 269px;
-    margin: 9px;
+    margin: 14px;
     bottom: 53px;
+    left: -27px;
     transform: rotate(120deg);
     overflow: hidden;
     visibility: hidden;
@@ -276,7 +276,7 @@ main{
     transform: rotate(-60deg);
     overflow: hidden;
     visibility: visible;
-    background-image: url("assets/7.png");
+    background-image: url("assets/8.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -287,13 +287,13 @@ main{
     transform: rotate(-60deg);
     overflow: hidden;
     visibility: visible;
-    background-image: url("assets/8.png");
+    background-image: url("assets/9.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
 }
 .hexa{
-    padding-bottom: 100px;
+    padding-bottom: 30px;
     
 }
 .hexagon-container-2{
@@ -305,8 +305,8 @@ main{
 .hexagon-2 {
     width: 230px;
     height: 269px;
-    margin: 9px;
-    left: 2px;
+    margin: 14px;
+    left: -20px;
     transform: rotate(120deg);
     overflow: hidden;
     visibility: hidden;
@@ -320,7 +320,7 @@ main{
     transform: rotate(-60deg);
     overflow: hidden;
     visibility: visible;
-    background-image: url("assets/9.png");
+    background-image: url("assets/10.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -331,7 +331,7 @@ main{
     transform: rotate(-60deg);
     overflow: hidden;
     visibility: visible;
-    background-image: url("assets/10.png");
+    background-image: url("assets/11.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -342,7 +342,7 @@ main{
     transform: rotate(-60deg);
     overflow: hidden;
     visibility: visible;
-    background-image: url("assets/11.png");
+    background-image: url("assets/12.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -353,50 +353,65 @@ main{
     transform: rotate(-60deg);
     overflow: hidden;
     visibility: visible;
-    background-image: url("assets/12.png");
+    background-image: url("assets/13.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
 }
 .line-hr{
     text-align: center;
-    width: 90%;
+    width: 95%;
     border:0;
     height: 1px;
     color: #e4e9eb;
     background-color: #e4e9eb;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
+    position: relative;
+    left: 6px;
+    top: 3px;
 }
 .slider{
-    margin-left: 67px;
-    padding-bottom: 17px;
+    margin-left: 40px;
+    padding-bottom: 42px;
     width: 95%;
+    position: relative;
+    top: 30px;
 }
 .slider ul{
     display: flex;
     list-style: none;
     padding: 0;
-    width: 6px;
-    height: 6px;
+    width: 8px;
+    height: 8px;
     
 }
 .slider ul li{
-    padding-right: 3px;
+    padding-right: 4px;
 }
 .line-smith{
-    width: 60%;
+    width: 45%;
     height: 1px;
     border: 0;
-    margin: 195px 0 0 0;
+    margin: 198px 0 0 0;
     color: #219d84;
     background-color: #219d84;
     transform: rotate(270deg);
-    
+    position: relative;
+    left: -77px;
+}
+.line-smith-1{
+    position: relative;
+    left: 294px;
+    height: 105%;
+    color: #219d84;
+    background-color: #219d84;
+    border-left: 1px solid #219d84
 }
 .hexagon-smith {
-    width: 182px;
-    height: 209px;
-    margin: 5px;
+    width: 230px;
+    height: 269px;
+    margin: 14px;
+    left: 0px;
     transform: rotate(120deg);
     overflow: hidden;
     visibility: hidden;
@@ -405,8 +420,8 @@ main{
 }
 .hex-smith{   
     visibility: hidden;
-    width: 100%;
-    height: 100%;
+    width: 230px;
+    height: 273px;
     transform: rotate(-60deg);
     overflow: hidden;
 }
@@ -421,7 +436,7 @@ main{
     padding-top: 30px;
     background-color: #2eb398;
     background-size: cover;
-    height: 384px;
+    height: 425px;
     position: relative;
     
 }
@@ -433,39 +448,37 @@ main{
     visibility: visible;
     background-image: url("assets/mr-smith.png");
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: 50%;
-    
-     
 }
 .article{
     width: 100%;
     height: 360px;
     display: flex;
     position: relative;
+    left: -417px;
 }
 
 .smith-img{
-    width: 180px;
-    height: 206px;
-    display: inline-block;
-    margin: 60px 40px 0 0;
     position: relative;
-    left: -50px;
+    left: 158px;
+    top: 49px;
 }
 #blog{
     margin-top: 27px;
     position: relative; 
-    
     width: 95%;
 }
 #blog h2{
     color:#d7fcf5; 
-    font-size: 32px;
+    font-size: 41px;
     margin-bottom: 0;
     text-align: left;
     font-family: 'Rajdhani', sans-serif;
     position: relative;
-    left: -50px;
+    left: 221px;
+    top: -11px;
+    word-spacing: 6px;
 }
 #blog h3{
     color:#20816b;
@@ -474,17 +487,23 @@ main{
     text-align: left;
     font-family: 'Rajdhani', sans-serif;
     position: relative;
-    left: -50px;
+    left: 224px;
+    top: -17px;
+    font-size: 24px;
+    word-spacing: 2px;
 }
 #blog p{
-    color:#d7fcf5;
+    color: #d7fcf5;
     width: 150%;
-    font-size: 12px;
+    font-size: 17px;
     line-height: 170%;
     text-align: left;
-    letter-spacing: 0.05em;  
     position: relative;
-    left: -50px;
+    left: 225px;
+    top: -21px;
+}
+#blog p:first-child{
+    letter-spacing: 4px;
 }
 #blog ul{
     display: flex;
@@ -493,7 +512,8 @@ main{
     float: right;
     margin-top: 23px;
     position: relative;
-    left: 55px;
+    left: 264px;
+    top: -15px;
 }
 .link-1:hover{
     transform: rotate(360deg);
@@ -526,7 +546,8 @@ main{
     
 }
 footer{
-    height: 670px;
+    width: 100%;
+    height: 770px;
     background-color: #323232;
     color: #e0e0e0;
     border-bottom: 1px solid #2b2b2b;
@@ -534,28 +555,41 @@ footer{
 fieldset{
     border: 0;
     height: 481px;
-    margin-left: 121px;
-    margin-top: 67px;
+    margin-left: 149px;
+    margin-top: 90px;
     padding-bottom: 0 !important;
 }
+fieldset p{
+    font-size: 25px !important;
+    margin-top: 4px !important;
+    margin-bottom: 2px !important; 
+}
 legend{
-    width: 168px;
-    height: 22px;
+    width: 224px !important;
+    height: 27px;
     left: 121px;
-    font-size: 32px;
+    font-size: 39px;
+    position: relative;
+    left: -1px;
+    top: -10px;
+    word-spacing: 9px;
 }
 input{
-    width: 682px;
-    height: 38px;
+    width: 752px;
+    height: 49px;
     margin-top: 20px;
-    padding-left: 10px;
+    padding-left: 18px;
+    font-size: 15px;
 }
 textarea{
-    width: 680px;
-    height: 150px;
+    width: 752px;
+    height: 181px;
     margin-top: 20px;
     margin-bottom: 20px;
-    padding-left: 10px;
+    padding-top: 19px;
+    padding-left: 18px;
+    font-size: 15px;
+    letter-spacing: -1.9px;
 }
 .form{
     background-color: #454545;
@@ -563,28 +597,30 @@ textarea{
     border: 0;
 }
 button{
-    width: 90px;
-    height: 37px;
+    width: 120px;
+    height: 48px;
     background-color: #2eb398;
     color: #b4eadf;
     border: 0;
     float: right;
-    margin-bottom: 30px;
+    margin-bottom: 28px;
+    margin-top: 2px;
+    font-size: 16px;
 }
 .speech{
     float: right;
-    width: 226px;
+    width: 250px;
     height: 100px;
     max-width: 400px;
     max-height: 100px;
     margin: 0;
-    padding-top: 135px;
+    padding-top: 152px;
     padding-left: 12px;
     color: #bebebe;
     float: left;
     line-height: 170%;
-    font-size: 14px;
-    
+    font-size: 17px;
+    word-spacing: 5px;
 }
 .speech p{
     padding-bottom: 16px;
@@ -594,15 +630,21 @@ button{
     list-style: none;
     margin-top: 25px;
     margin-left: -40px;
-    
+    position: relative;
+    top: 2px;
+    left: -1px;
 }
 .speech ul li img{
     padding-right: 5px;
+    position: relative;
+    
 }
 .speech ul li a{
     text-decoration: none;
     color: #a8a8a8;
     margin-left: 5px;
+    position: relative;
+    top: 2px;
 }
 .speech ul li:first-child{
     padding-left: 2px;
@@ -610,23 +652,24 @@ button{
 
 .copyright{
     float: left;
-    margin-top: 71px;
+    margin-top: 171px;
     padding: 0;
     width: 100%;
-    height: 43px;
+    height: 56px;
     background-color: #222222;
     color: #414141;
+    
 }
 .copyright p{
     margin: 0;
-    font-size: 13px;
-    padding-left: 39px;
-    padding-top: 16px;
+    font-size: 17px !important;
+    padding-left: 44px;
+    padding-top: 17px;
 }
 .line-foot-1{
     border: 0;
-    margin: 0px 0 0 50px;
-    width: 90%;
+    margin: 0px 0 0 42px;
+    width: 95%;
     height: 1px;
     color: #2b2b2b;
     background-color: #2b2b2b;
@@ -635,11 +678,12 @@ button{
 }
 .line-foot-2{
     border: 0;
-    margin: 0px 0 0 50px;
-    width: 90%;
+    margin: 0px 0 0 42px;
+    width: 95%;
     height: 1px;
     color: #2b2b2b;
     background-color: #2b2b2b;
     position: relative;
-    top: 55px;
+    top: 154px;
+    float: left;
 }
